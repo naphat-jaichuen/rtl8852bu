@@ -162,6 +162,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE_AND_INTERFACE_INFO(0x0db0, 0x6931, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, // MSI 802.11ax WLAN Adapter
 	{USB_DEVICE_AND_INTERFACE_INFO(0x35bc, 0x0108, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, // TP-LINK Archer TX20U Nano
 	{USB_DEVICE_AND_INTERFACE_INFO(0x35bc, 0x0100, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, // TP-LINK Archer TX20U
+	{USB_DEVICE_AND_INTERFACE_INFO(0x2357, 0x013f, 0xff, 0xff, 0xff), .driver_info = RTL8852B}, // TP-LINK Archer TX20U Plus
 #endif /* CONFIG_RTL8852B */
 
 #ifdef CONFIG_RTL8852BP
